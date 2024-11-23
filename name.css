@@ -1,0 +1,74 @@
+body{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.con{
+    display: flex;
+    counter-increment: centre;
+    gap:220px;
+}
+.con .con1{
+    display: flex;
+    counter-increment: centre;
+    gap:20px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #db7a34;
+}
+.img1{
+    position: absolute;
+    height: 350px ;
+    width: 350px;
+    z-index: 1;
+}
+.img2{ 
+    position: absolute;
+    height: 350px ;
+    width: 350px;
+    z-index: 2;
+}
+.img3{
+    position: absolute;
+    height: 100px ;
+    width: 250px;
+    bottom: 45px;
+    z-index: 3;
+}
+.img4{
+    position: absolute;
+    height: 100px ;
+    width: 250px;
+    right: 15px;
+    z-index: 3;
+}
+.img5{
+    position: absolute;
+    height: 350px ;
+    width: 350px;
+}
+.img6{
+    position: absolute;
+    height: 350px ;
+    width: 350px;
+    padding-left: -400px;
+    z-index: 2;
+}
+.relative-box { 
+    padding-right: 500px;
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #cacac2;
+}
+.cl{
+    transition: color 0.3s ease, background-color 0.3s ease;
+    color: #e7c724;
+}
+.cl:hover{
+    color: black;
+}
