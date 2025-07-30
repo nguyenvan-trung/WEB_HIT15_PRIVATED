@@ -76,5 +76,21 @@
     <footer class="footer">
       <p class="footer__text">© 2025 Nguyễn Văn Hoàng.</p>
     </footer>
+
+    <script>
+      // Chặn F12
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+          e.preventDefault();
+          alert("Không được phép dùng Inspect!");
+        }
+      });
+
+      // Chặn chuột phải
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+        alert("Chuột phải bị vô hiệu hóa!");
+      });
+    </script>
   </body>
 </html>
