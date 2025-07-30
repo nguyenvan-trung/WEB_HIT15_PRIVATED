@@ -1,42 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>buoi1 </h1>
-=======
-    /* CSS */
-    <style>
-        html, body {
-          height: 100%; /* Đảm bảo chiều cao 100% cho toàn bộ trang */
-          margin: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        
-        .container {
-          display: flex;
-          justify-content: center; /* Căn giữa theo chiều ngang */
-          align-items: center;     /* Căn giữa theo chiều dọc */
-          height: 100vh;           /* Chiều cao của container bằng toàn bộ chiều cao màn hình */
-        }
-        
-        .content {
-          font-size: 20px;
-          text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <p class="content">Đây là đoạn văn được căn giữa trang web</p>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin cá nhân - HoangNV</title>
+    <link rel="stylesheet" href="home.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <i class="fa-solid fa-circle-user header__icon"></i>
+      <h1 class="header__title">
+        Thông tin cá nhân - <span class="highlight">HoangNV</span>
+      </h1>
+    </header>
+
+    <section class="info-grid">
+      <div class="info-col">
+        <div class="info-title">
+          <i class="fa-solid fa-user"></i> Tên đầy đủ
+        </div>
+        <div class="info-content">Nguyễn Văn Hoàng</div>
       </div>
->>>>>>> 5e2ce5d (add buoi hoc)
-</body>
+
+      <div class="info-col">
+        <div class="info-title"><i class="fa-solid fa-envelope"></i> Email</div>
+        <div class="info-content">
+          <a href="mailto:nguyenvanhoang@gmail.com">nguyenvanhoang@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="info-col">
+        <div class="info-title">
+          <i class="fa-solid fa-circle-user"></i> Ảnh cá nhân
+        </div>
+        <img
+          class="info-image"
+          src="https://images.pexels.com/photos/18024558/pexels-photo-18024558.jpeg"
+          alt="Ảnh cá nhân"
+        />
+      </div>
+
+      <div class="info-col">
+        <div class="info-title">
+          <i class="fa-solid fa-shirt"></i> Áo yêu thích
+        </div>
+        <img
+          class="info-image"
+          src="https://axelpickleball.com/wp-content/uploads/2025/05/ao-phong-axel-pik-mau-den.jpg"
+          alt="Áo yêu thích"
+        />
+      </div>
+
+      <div class="info-col">
+        <div class="info-title">
+          <i class="fa-solid fa-car-side"></i> Xe yêu thích
+        </div>
+        <img
+          class="info-image"
+          src="https://autopro8.mediacdn.vn/2021/10/2/photo-3-16331375538842003973831.jpg"
+          alt="Xe yêu thích"
+        />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">© 2025 Nguyễn Văn Hoàng.</p>
+    </footer>
+  </body>
 </html>
